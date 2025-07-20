@@ -1,6 +1,7 @@
 ---
 title: Welcome
 layout: home
+nav_order: 1
 ---
 
 # Welcome to Peter's 3D Printing Notes
