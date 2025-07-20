@@ -6,7 +6,9 @@ parent: Speed
 ---
 # Overview
 
-> “If I had asked people what they wanted, they would have said faster horses.” —(not) Henry Ford
+
+
+I dont *need* a printer that prints benchy in under 3 minutes. 
 
 ## Toolhead
 
