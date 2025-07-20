@@ -6,4 +6,22 @@ parent: Speed
 ---
 # Overview
 
-“If I had asked people what they wanted, they would have said faster horses.” —often (mistakenly) attributed to Henry Ford
+> “If I had asked people what they wanted, they would have said faster horses.” —(not) Henry Ford
+
+## Toolhead
+
+### Weight
+
+### Extruder
+
+### Hotend
+
+## Motion system
+
+### Friction
+
+### Motors
+
+### Belts
+
+###     
