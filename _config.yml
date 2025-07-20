@@ -5,7 +5,7 @@ url: "https://PeterXQC.github.io"
 baseurl: "/3DPrinting"     # <-- required for a repo at PeterXQC.github.io/3DPrinting
 
 theme: just-the-docs   # <-- pulls theme from GitHub  
-plugins:
+# plugins:
   
 color_scheme: dark
 callouts_level: loud
