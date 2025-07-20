@@ -16,10 +16,17 @@ This website is organized by **specific printing goals or intentions**, such as 
 
 1. **Overview:** A brief explanation of factors affecting that specific intention (e.g., what affects printing speed or accuracy).
 2. **Projects and Mods:** Individual projects detailing specific modifications or upgrades I implemented to work towards these goals.
-
-Additionally, I may include notes, experiences, challenges, and solutions within each project page.
+3. **Notes, experiences, challenges, and solutions:** This is not guaranteed, most likely will only exist when I feel strongly about something...
 
 I strive to maintain this structure, but if something seems out of place, please use the search feature to quickly locate content.
+
+It is common for projects to be superseded by newer modifications. When this occurs, the newer project's page will contain a link at the beginning referencing the superseded project. Conversely, the superseded project's page will have a link at the end pointing to its replacement. I may occasionally explain the reasoning behind these changes, but this is not guaranteed.
+
+If a project is current and has not been superseded, its page will end with the bold term Deployed. You can search for this term to quickly identify what modifications I'm currently using. However, I do not guarantee that I won't use this term elsewhere.
+
+## No Promotions
+
+This website contains no promotions or sponsored content. Every project mentioned here was paid for by me personally. If I mention specific brands or sources, it's either because I have a particular opinion about them, or simply to provide you with a reference or option.
 
 ## Acknowledgements
 
