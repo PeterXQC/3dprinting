@@ -1,18 +1,18 @@
-layout: default
+# Site settings
 title: 3DPrinting
-email: qichenxu0724@gmail.com
-github_username:  PeterXQC
-github: [metadata]
-url: https://PeterXQC.github.io/3DPrinting
+description: "Documentation of my 3D printing and modding process"
+url: "https://PeterXQC.github.io"
+baseurl: "/3DPrinting"     # <-- required for a repo at PeterXQC.github.io/3DPrinting
 
-# Build settings
-theme: just-the-docs
-color_scheme: dark
-
+# Use Just the Docs as a remote theme on GitHub Pages
+remote_theme: pmarsceill/just-the-docs   # <-- pulls theme from GitHub  
 plugins:
+  - jekyll-remote-theme                  # <-- enable remote_theme support
   - jekyll-feed
   - jemoji
 
+# Just the Docs configuration
+color_scheme: dark
 callouts_level: loud
 callouts:
   prereqs:
