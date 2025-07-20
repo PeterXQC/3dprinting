@@ -6,6 +6,30 @@ baseurl: "/3DPrinting"     # <-- required for a repo at PeterXQC.github.io/3DPri
 
 theme: just-the-docs   # <-- pulls theme from GitHub  
 plugins:
-  - jemoji
+  
+color_scheme: dark
+callouts_level: loud
+callouts:
+  prereqs:
+    title: Prerequisites
+    color: yellow
+  compat:
+    title: Compatibility
+    color: pink
+  warning:
+    title: Warning
+    color: red
+  attention:
+    color: orange
+  note:
+    title: Note
+    color: blue
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+aux_links:
+  "Find me":
+    - "https://github.com/PeterXQC/3DPrinting"
 
 
