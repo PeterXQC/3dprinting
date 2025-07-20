@@ -1,13 +1,9 @@
-title: 
-theme: just-the-docs
-
-url: https://PeterXQC.github.io/3DPrinting
-
 layout: default
 title: 3DPrinting
 email: qichenxu0724@gmail.com
 github_username:  PeterXQC
 github: [metadata]
+url: https://PeterXQC.github.io/3DPrinting
 
 # Build settings
 theme: just-the-docs
