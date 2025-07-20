@@ -8,7 +8,8 @@ theme: just-the-docs   # <-- pulls theme from GitHub
 # plugins:
   
 color_scheme: dark
-logo: "/assets/images/logo.png"
+# logo replaces title.
+# logo: "/assets/images/logo.png"
 favicon_ico: "/assets/images/logo.png"
 mermaid:
   version: "9.1.3"
