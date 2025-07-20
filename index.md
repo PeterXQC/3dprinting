@@ -34,7 +34,9 @@ I'd like to express my gratitude to [Andrew Ellis](https://ellis3dp.com) for the
 
 ## Continuous Improvement
 
-Like my printers, this website will always remain a work in progress. I continually update it as I experiment and learn new things. I am no expert in much of these topics, and your feedback and suggestions are always welcome!
+Like my printers, this website will always remain a work in progress. I continually update it as I experiment and learn new things. I am no expert in much of these topics, and your feedback and suggestions are always welcome. Remember,
+
+> "In the beginner's mind there are many possibilities, in the expert's mind there are few." – Shunryu Suzuki
 
 Happy printing!
 
