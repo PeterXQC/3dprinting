@@ -44,7 +44,7 @@ What do you know, the VZbot has a 330mm build. I guess this makes sense.
 Keeping in mind that the nema 17 motors on a monolith blocks off 8.5mm on each side. If we cut those parts out, we get 333mm of travel. Close enough. 
 
 The second contender is [aTinyShellScript's AWD setup](https://github.com/aTinyShellScript/v2.4_AWD) whose CAD files do not include a X-axis for me to tinker with. Luckily, there are other ways we can look into this. First of all, there is no reason to assume any difference on the back side. They all adapt from a stoick voron build with the 10mm overtravel without taking much extra space. On the front side, the Nema 17 motors are further away from the front of the Y-beam, blocking more space in the X and Y axis.
-![image](../assets/shellvsMono.png)
+![image](../assets/shellvsMono.jpg)
 
 Given that preserving build volume is more important to me than optimization for speed, it is clear that monolith is the way to go.
 
