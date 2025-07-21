@@ -3,6 +3,7 @@ layout: default
 title: Awd Gantry
 nav_order: 2
 parent: Speed
+last_modified_date: 2025-07-21
 ---
 
 # [Monolith Gantry](https://github.com/CloakedWayne/Monolith_Gantry_V2-VT)

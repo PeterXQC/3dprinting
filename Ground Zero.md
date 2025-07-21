@@ -2,6 +2,7 @@
 layout: default
 title: Ground Zero
 nav_order: 2
+last_modified_date: 2025-07-21
 ---
 
 # Ground Zero

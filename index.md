@@ -2,6 +2,7 @@
 title: Welcome
 layout: home
 nav_order: 1
+last_modified_date: 2025-07-21
 ---
 
 # Welcome to Peter's 3D Printing Notes
