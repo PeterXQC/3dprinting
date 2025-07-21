@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Monolith Awd Gantry
+title: Awd Gantry
 nav_order: 2
 parent: Speed
 ---
@@ -21,6 +21,32 @@ Luckily, there are three redeeming qualities.
 2. Unless you are working with 4 short shafted motors, all motors will be on top of the gantry. This means you can put as much things as possible under the X-axis. Certain toolhead designs (like the [Gustav Railway Toolhead](https://github.com/RCI-Nicket/Gustav-Railway-Toolhead)) leverages this and puts the part cooling fan under. 
 3. I found about 10mm of Y-overtravel in my machine. This means you can fit a CPAP chute down behind the X-axis. 
 Overall, a monolith toolhead that preserves all build volume is indeed possible, and there are ongoing progresses to tackle them.
+
+I also need to look into VZbot's toolheads, and how they handle their z-offest and bed mesh generation.
+
+## Comparisons to other AWD projects
+The other two AWD projects I looked into are [Mammoth](https://github.com/mammoth-3D/Mammoth-FDM-MODs) and the OG AWD setup by [aTinyShellScript](https://github.com/aTinyShellScript/v2.4_AWD). The mammoth has an interesting design
+![image](../assets/Mammoth.png) that seem to draw more insporation from [VZbot](https://github.com/VzBoT3D/VzBoT-Vz330). It looks extra spacious, and seems to not have any physical constaint from the front motors at all in the same frame of a voron 2.4. This drew my attention: if the z axis beams are at the same position and the Nema 17 motors are a fixed size, there is no reason why it wont block off build volumes for Mammoth while it does for Voron, assuming the same build volume. As it turns out, there's no magic, but subtle differences. 
+
+| Part | mammoth | Voron (and monolith) |
+| -------- | ------- |
+| X rail | 380mm | 400mm |
+| X beam | 414mm | 430mm |
+| slider | MGN9H | MGN12H |
+| slider width | 39.9mm | 45.3mm |
+| Max Effective X travel | 340.1 | 354.7 |
+
+Tinkering with the CAD, I found that the max travel of a mammoth is around 336mm on the X-axis. 
+![image](../assets/Mammoth Travel.png)
+
+What do you know, the VZbot has a 330mm build. I guess this makes sense. 
+
+Keeping in mind that the nema 17 motors on a monolith blocks off 8.5mm on each side. If we cut those parts out, we get 333mm of travel. Close enough. 
+
+The second contender is [aTinyShellScript's AWD setup](https://github.com/aTinyShellScript/v2.4_AWD) whose CAD files do not include a X-axis for me to tinker with. Luckily, there are other ways we can look into this. First of all, there is no reason to assume any difference on the back side. They all adapt from a stoick voron build with the 10mm overtravel without taking much extra space. On the front side, the Nema 17 motors are further away from the front of the Y-beam, blocking more space in the X and Y axis.
+![image](../assets/shellvsMono.png)
+
+Given that preserving build volume is more important to me than optimization for speed, it is clear that monolith is the way to go.
 
 ## My Installation Manual
 0. Aside from everything in the BOM, if you come from a standard 2 motor Core-XY build, you need 2 extra motors and 2 stepper drivers. 
