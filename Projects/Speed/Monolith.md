@@ -3,7 +3,7 @@ layout: default
 title: Awd Gantry
 nav_order: 2
 parent: Speed
-last_modified_date: 2025-07-21
+last_modified_date: 2025-07-23
 ---
 
 # [Monolith Gantry](https://github.com/CloakedWayne/Monolith_Gantry_V2-VT)
@@ -16,7 +16,7 @@ Then there's the Monolith. It's configurable, does not block the print bed, and 
 If you allow pertrusion at front, the motor mount and motors get pushed out by 6mms. Similarly, allowing pertrusion at the back pushes the entire assembly at the back (two motor mounts and motors, and x-axis beam) out by 6mm. 
 ![image](../assets/size.png)
 
-Cleverly, this is done via 4 spacer that attaches to the Z-axis linear rails and pushes the z-joint (and thus each corner of the gantry) together. If you print our "Printed_Hybrid_V2_Z_joint_spacer_NP" and wonder what is the thing in the middle (in itself, it's the "V2_spacer_FT"), well, it is what let you convert into a protruded build. Remove this spacer and put V2_spacer_FT in your rear motor mount as the new stopper for your extrusion, and you get some extra space.
+Cleverly, this is done via 4 spacer that attaches to the Z-axis linear rails and pushes the z-joint (and thus each corner of the gantry) together. If you print our "Printed_Hybrid_V2_Z_joint_spacer_NP" and wonder what is the thing in the middle (in itself, it's the "V2_spacer_FT"), well, it is what let you convert into a protruded build. Remove this spacer and put V2_spacer_FT in your rear motor mount as the new stopper for your extrusion, and you get some extra space. 
 ![image](../assets/spacer.png)
 
 ### What about my panels?
