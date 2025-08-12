@@ -5,9 +5,9 @@ nav_order: 1
 last_modified_date: 2025-07-21
 ---
 
-# Welcome to Peter's 3D Printing Notes
+# Welcome to [Peter](https://peterxqc.github.io/)'s 3D Printing Notes
 
-Hello! I'm Peter, and I love 3D printing—especially with my Voron 2.4. This website is dedicated to documenting my journey in modifying, enhancing, and optimizing my 3D printer.
+Hello! I'm [Peter](https://peterxqc.github.io/), and I love 3D printing—especially with my Voron 2.4. This website is dedicated to documenting my journey in modifying, enhancing, and optimizing my 3D printer.
 
 Whether you're here to explore specific projects I've completed or you're looking for inspiration and guidance to achieve your own printing goals, I hope you find this resource helpful.
 
@@ -41,5 +41,5 @@ Like my printers, this website will always remain a work in progress. I continua
 
 Happy printing!
 
-— Peter
+— [Peter](https://peterxqc.github.io/)
 
