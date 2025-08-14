@@ -62,11 +62,18 @@ The second contender is [aTinyShellScript's AWD setup](https://github.com/aTinyS
 Given that preserving build volume is more important to me than optimization for speed, it is clear that monolith is the way to go.
 
 ## My Installation Manual
+I will assume that you are familiar with the build process of a Voron 2.4. If not, you can reference the [Voron manual](https://github.com/VoronDesign/Voron-2/raw/Voron2.4/Manual/Assembly_Manual_2.4r2.pdf).
+
 0. Aside from everything in the BOM, if you come from a standard 2 motor Core-XY build, you need 2 extra motors and 2 stepper drivers. 
 1. I printed all my parts with ABS under standard [voron printed parts settings](https://docs.vorondesign.com/sourcing.html).
 2. Install Heat Set Inserts: The BOM calls for 8 M3xD5x4 threaded inserts. There are 2 in each XY_joint_b, 1 in each tensioner_b, and 1 in each rear_motor_mount_a.
 ![image](../assets/inserts.jpg)
-3. Back side (x2) 
+3. Front side (x2)
+    1. Insert two pins in the following fashion. They are tight. I used a vise to push it in. The pin is supposed to fix to the body and does not rotate (dead shaft). ![image](../assets/pin.jpg)
+    2. Make 2 bearing kababs with the following layers: 0.5mm M5 shim, F695 bearing, 1mm M5 shim, F695 bearing, 0.5mm M5 shim. The flange on the F695 bearing should be near the 0.5mm shim. ![image](../assets/kabab.jpg) 
+    3. Install pulleys onto the motor shaft. The spacing between the motor and the pulley and the orientation of the pulley are identical to that of a Voron 2.4 gantry. You can use the [Voron pulley jig](https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Tools/pulley_jig.stl) to help with the spacing and verify with the CAD for the orientation of the pulley. A rule of thumb is that the pulley's teeth should be on the same height as the bearing kabab you just made. I did not follow the specs to use one long + one short shafted motor. Instead, I used 2 short shafted motor for the front. This is because the long shafted motors I got [LDO 42STH48-2804AH](https://west3d.com/products/ldo-motors-42sth48-2804ah-super-speedy-super-power-high-temp-nema-17-stepper-motor-high-performance-high-temperature) has cable fixed to the motor, and the attached cable is not long enough for routing from the front. Since the biblical voron 2.4 uses the same motor-pulley setup, I think this is good enough, even though BOM calls for at least a 35mm shaft. 
+    4. Install the motor. Make sure that the motors are on TOP of the gantry. This is likely because motor under the gantry crushes into your print bed. I will verify this at a later time. ![image](../assets/finish1.jpg)  ![image](../assets/finish2.jpg) 
+4. Back side (x2) 
     1. Tensioners(x2)
         1. prepare two tensioners: each tensioner-b has two holes. Put a M3x10 SHCS with a M3 washer into the larger hole. They do not need bind to the plastic part (even though they tend to). ![image](../assets/tensioner-b.jpg)
         2. Put tensioner-b inside tensioner-a, align the extrusion on the side. Put a M3x16 SHCS with a M3 washer into the aligned hole in tensioner-b and slot in tensioner-a. ![image](../assets/tensioner-a.jpg)
