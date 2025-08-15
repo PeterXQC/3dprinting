@@ -69,9 +69,10 @@ I will assume that you are familiar with the build process of a Voron 2.4. If no
 
 0. Aside from everything in the BOM, if you come from a standard 2 motor Core-XY build, you need 2 extra motors and 2 stepper drivers. 
 1. I printed all my parts with ABS under standard [voron printed parts settings](https://docs.vorondesign.com/sourcing.html).
-2. Install Heat Set Inserts: The BOM calls for 8 M3xD5x4 threaded inserts. There are 2 in each XY_joint_b, 1 in each tensioner_b, and 1 in each rear_motor_mount_a.
+2. Install Heat Set Inserts (8x M3xD5x4 threaded inserts)
+    1. The BOM calls for 8 M3xD5x4 threaded inserts. There are 2 in each XY_joint_b, 1 in each tensioner_b, and 1 in each rear_motor_mount_a.
 ![image](../assets/inserts.jpg)
-3. Preparation
+3. Preparation (12x F695 bearing)
     1. Make 4 de-hubbed pulley 
         1. The part of the pulley with screw-holes are called the "hub", and the thin side-wall is called a flange. 
         2. To dehub a pulley, remove the hub, then remove the flange from another pulley. ![image](../assets/dehub.jpg) This step is scary and requires some force. If the plastic holding the nut gave out, you can press on the screw directly with a vise. ![image](../assets/clamp.jpg) 
@@ -80,27 +81,33 @@ I will assume that you are familiar with the build process of a Voron 2.4. If no
         1. You have printed four shear housing and four twist locks. Depending on how many short shafted motors you use, they can be of different shapes. Short shafted motors use taller housing and twist locks, and long shafted ones use shorter ones. ![image](../assets/ShearHousing.jpg) ![image](../assets/twistlock.jpg)
         2. Put one F695 bearing into each shear housing, with the flange facing away from the extruded bit. This is not easy, but you can use a de-hubbed pulley as a spacer and a vise to push it in. ![image](../assets/pushin.jpg) 
         3. Lock in the twist lock with a quarter. The bearing should sit flush to the protruded face of the housing. ![image](../assets/SHwithBearing.jpg) 
-    
-4. Front side (x2)
-    1. Insert two D5x30 pins in the following fashion. They are tight. I used a vise to push it in. The pin is supposed to fix to the body and does not rotate (dead shaft). ![image](../assets/pin.jpg)
-    2. Make 2 bearing kababs with the following layers: 0.5mm M5 shim, F695 bearing, 1mm M5 shim, F695 bearing, 0.5mm M5 shim. The flange on the F695 bearing should be near the 0.5mm shim. ![image](../assets/kabab.jpg) 
-    3. Install pulleys onto the motor shaft. The spacing between the motor and the pulley and the orientation of the pulley are identical to that of a Voron 2.4 gantry. You can use the [Voron pulley jig](https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Tools/pulley_jig.stl) to help with the spacing and verify with the CAD for the orientation of the pulley. A rule of thumb is that the pulley's teeth should be on the same height as the bearing kabab you just made, and make sure to flip one of the front motor mount so that they are a mirror of each other and the bearing kababs are on different heights. I recommend using locktite for the pulley screws, as per the [Voron manual](https://github.com/VoronDesign/Voron-2/raw/Voron2.4/Manual/Assembly_Manual_2.4r2.pdf).
-    4. Install the motor on one side of the front motor mount (again, making sure that the pulley aligns with the bearing kabab), and install a pairing shear housing on the other side. The bearing in the shear housing should support the other side of the motor shaft, and the shear housing should sit flush to the front motor mount. ![image](../assets/finish1.jpg)  
+        4. Furthermore, there are bearing holes in each pieces of XY-joint and back side motor mount. They look like the following. ![image](../assets/bearingHole.jpg) 
+        5. Put a F695 bearing in there, the flange should always be put towards the inside of the final part. ![image](../assets/bearingIn.jpg) 
 
-5. XY-joint (x2)
+4. Front side (2x D5x30 shaft, 4x F695 bearing, 2x pulley, 4x 0.5mm M5 shim, 2x 1mm M5 shim, 8x M3x35 SHCS)
+    1. Insert two D5x30 shaft in the following fashion. They are tight. I used a vise to push it in. The pin is supposed to fix to the body and does not rotate (dead shaft). ![image](../assets/pin.jpg)
+    2. Make 2 bearing kababs with the following layers: 0.5mm M5 shim, F695 bearing, 1mm M5 shim, F695 bearing, 0.5mm M5 shim. The flange on the F695 bearing should be near the 0.5mm shim. ![image](../assets/kabab.jpg) 
+    3. Install pulleys onto the motor shaft. 
+        1. If you usde 2 short shaft motor and 2 long shaft motor, the short shaft motor should have pulley hub away from the motor body, while the long shaft motor should have pulley hub close to pulley body.
+        2. Once you mirror the parts, one of them will have the bearing kabab further from the motor. That should be the one to mount the long shaft motor on. ![image](../assets/frontDone.jpg)  
+        3. The spacing between the motor and the pulley and the orientation of the pulley are identical to that of a Voron 2.4 gantry. You can use the [Voron pulley jig](https://github.com/VoronDesign/Voron-2/blob/Voron2.4/STLs/Tools/pulley_jig.stl) to help with the spacing and verify with the CAD for the orientation of the pulley. The pulley's teeth should be on the same height as the bearing kabab you just made. I recommend using locktite for the pulley screws, as per the [Voron manual](https://github.com/VoronDesign/Voron-2/raw/Voron2.4/Manual/Assembly_Manual_2.4r2.pdf).
+    4. Install the motor on one side of the front motor mount with 4x M3x35 SHCS (again, making sure that the pulley aligns with the bearing kabab), and install a pairing shear housing on the other side. The bearing in the shear housing should support the other side of the motor shaft, and the shear housing should sit flush to the front motor mount. ![image](../assets/finish1.jpg)  
+
+5. XY-joint (4x D5x30 shaft, 4x F695 bearing, 2x dehubbed pulley, 6x 0.5mm M5 shim, 2x 1mm M5 shim)
     1. Each of the four piece of the XY-joint has a crater in the center. Insert a F695 bearing with flange facing inward (the "outside" is the side touching your plate when printed). 
     2. One of the two pieces for each XY-joint has a thicker lip. It is easier (for me) to work on these sides first (right pieces of both assemblies). ![image](../assets/xy-2.jpg)  
-    3. Insert D5x30 pins into the bearing and the plastic of the thicker side.
+    3. Insert D5x30 shaft into the bearing and the plastic of the thicker side.
     4. Put a dehubbed pulley into the center shaft (the one with a bearing to one end), lock it with M4x2.5 screws with the screws pointing away from the bearing. The teeth of the pulley should be besides the elevated lip. 
     5. Put a printed spacer on the center shaft, the small lip should be touching the pulley's hub.
     6. Put another D5x30 pin in the hole on the lip. Make the same kabab as in the front side with 0.5mm M5 shim, F695 bearing, 1mm M5 shim, F695 bearing, 0.5mm M5 shim. ![image](../assets/half-xy.png)  
     7. Press the two parts together. The center shaft should be a live shaft (shaft has bearing on eather end and spins with the pulley), while the one with only two F695 bearings and spacers should be a dead shaft (shaft remains fixed to plastic, bearing spins). ![image](../assets/xy-1.jpg)  
 
-6. Back side (x2) 
-    1. Tensioners (x2)
-        1. prepare two tensioners: each tensioner-b has two holes. Put a M3x10 SHCS with a M3 washer into the larger hole. They do not need bind to the plastic part (even though they tend to). ![image](../assets/tensioner-b.jpg)
-        2. Put tensioner-b inside tensioner-a, align the extrusion on the side. Put a M3x16 SHCS with a M3 washer into the aligned hole in tensioner-b and slot in tensioner-a. ![image](../assets/tensioner-a.jpg)
-        3. put M3 T-nut on both of these. The aluminum extrusion should slide onto this part later. ![image](../assets/tensioner-element.jpg)
-    2. Install bearings into tensioner-a (x2)
-        1. Push a D5x20 shaft into tensioner-a ![image](../assets/tensioner-pin.png). One of the sides has a larger hole. The pin should be inserted from there. Do not put the pin all the way in yet. Be careful, the walls around the shaft is thin.
-        2. Put a F695 bearing, 1mm M5 shim, and F695 bearing on the shaft between the two pedals of tensioner-a. I used a tweezer to align the three pieces with the hole. The flange on the F695 bearing should be away from the shim. ![image](../assets/tensioner-done.png)
+6. Tensioners (2x D5x20 shaft, 4x F695 bearing, 2x 1mm M5 shim, 2x M3x45 SHCS, 6x M3 washer, 2x M3x16 SHCS, 2x M3x10 SHCS)
+    1. Prepare two tensioners: each tensioner-b has two holes. Put a M3x10 SHCS with a M3 washer into the larger hole. They do not need bind to the plastic part (even though they tend to). ![image](../assets/tensioner-b.jpg)
+    2. Put tensioner-b inside tensioner-a, align the extrusion on the side. Put a M3x16 SHCS with a M3 washer into the aligned hole in tensioner-b and slot in tensioner-a. ![image](../assets/tensioner-a.jpg)
+    3. put M3 T-nut on both of these. The aluminum extrusion should slide onto this part later. ![image](../assets/tensioner-element.jpg)
+    4. Push a D5x20 shaft into tensioner-a ![image](../assets/tensioner-pin.png). One of the sides has a larger hole. The pin should be inserted from there. Do not put the pin all the way in yet. Be careful, the walls around the shaft is thin.
+    5. Put a F695 bearing, 1mm M5 shim, and F695 bearing on the shaft between the two pedals of tensioner-a. I used a tweezer to align the three pieces with the hole. The flange on the F695 bearing should be away from the shim. ![image](../assets/tensioner-done.png)
+
+7. Back side (2x pulley, 2x dehubbed pulley, 6x M3x35 SHCS, 2x M3x6 BHCS, 2x M3 nut, 2x 0.5mm M5 shim, 2x M3x25 SHCS, 2x M5x10 BHCS, 2x M5 washer)
+    1. Install pulleys onto the motor shaft. This is identical to what you did for the front mount, and the teeth should lign up with the tensioners' bearing kabab. 
