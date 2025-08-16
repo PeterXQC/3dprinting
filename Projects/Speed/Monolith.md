@@ -146,35 +146,35 @@ I will assume that you are familiar with the build process of a Voron 2.4. If no
 
    3. In terms of hardware, we have used:
 
-       | Part                            | BOM Qty | Used | Remaining |
-       |---------------------------------|---------|------|-----------|
-       | ~~M3 hex nut~~                  | 2       | 2    | 0         |
-       | ~~M3x10 SHCS~~                  | 2       | 2    | 0         |
-       | ~~M3x16 SHCS~~                  | 2       | 2    | 0         |
-       | ~~M3x25 SHCS~~                  | 2       | 2    | 0         |
-       | ~~M3x35 SHCS~~                  | 14      | 14   | 0         |
-       | ~~M3x45 SHCS~~                  | 2       | 2    | 0         |
-       | ~~M3xD5x4 threaded insert~~     | 8       | 8    | 0         |
-       | ~~M4x2.5 set screw~~            | 8       | 8    | 0         |
-       | ~~D5x20 smooth pin~~            | 2       | 2    | 0         |
-       | ~~D5x30 smooth pin~~            | 8       | 8    | 0         |
-       | ~~F695 flanged bearing~~        | 24      | 24   | 0         |
-       | ~~GT2 20T 6mm pulley~~          | 4       | 4    | 0         |
-       | ~~GT2 20T 6mm pulley de-hubbed~~| 4       | 4    | 0         |
-       | ~~Shim 0.5mm~~                  | 12      | 12   | 0         |
-       | ~~Shim 1mm~~                    | 6       | 6    | 0         |
-       | ~~NEMA17~~                      | 2       | 2    | 0         |
-       | ~~NEMA17 with 45mm long shaft~~ | 2       | 2    | 0         |
-       | M3 2020 drop-in T-nut           | 8       | 0    | 8         |
-       | M3 washer                       | 24      | 18   | 6         |
-       | M3x12 SHCS                      | 2       | 0    | 2         |
-       | M3x30 BHCS                      | 20      | 0    | 20        |
-       | M3x6 BHCS                       | 12      | 4    | 8         |
-       | M5 2020 drop-in T-nut           | 34      | 0    | 34        |
-       | M5 washer                       | 4       | 2    | 2         |
-       | M5x10 BHCS                      | 18      | 2    | 16        |
-       | M5x16 BHCS                      | 8       | 0    | 8         |
-       | M5x40 SHCS                      | 8       | 0    | 8         |
+       | Status | Part                         | BOM Qty | Used | Remaining |
+       |--------|------------------------------|---------|------|-----------|
+       | ❌     | M3 hex nut                   | 2       | 2    | 0         |
+       | ❌     | M3x10 SHCS                   | 2       | 2    | 0         |
+       | ❌     | M3x16 SHCS                   | 2       | 2    | 0         |
+       | ❌     | M3x25 SHCS                   | 2       | 2    | 0         |
+       | ❌     | M3x35 SHCS                   | 14      | 14   | 0         |
+       | ❌     | M3x45 SHCS                   | 2       | 2    | 0         |
+       | ❌     | M3xD5x4 threaded insert      | 8       | 8    | 0         |
+       | ❌     | M4x2.5 set screw             | 8       | 8    | 0         |
+       | ❌     | D5x20 smooth pin             | 2       | 2    | 0         |
+       | ❌     | D5x30 smooth pin             | 8       | 8    | 0         |
+       | ❌     | F695 flanged bearing         | 24      | 24   | 0         |
+       | ❌     | GT2 20T 6mm pulley           | 4       | 4    | 0         |
+       | ❌     | GT2 20T 6mm pulley de-hubbed | 4       | 4    | 0         |
+       | ❌     | Shim 0.5mm                   | 12      | 12   | 0         |
+       | ❌     | Shim 1mm                     | 6       | 6    | 0         |
+       | ❌     | NEMA17                       | 2       | 2    | 0         |
+       | ❌     | NEMA17 with 45mm long shaft  | 2       | 2    | 0         |
+       | ✅     | M3 2020 drop-in T-nut        | 8       | 0    | 8         |
+       | ✅     | M3 washer                    | 24      | 18   | 6         |
+       | ✅     | M3x12 SHCS                   | 2       | 0    | 2         |
+       | ✅     | M3x30 BHCS                   | 20      | 0    | 20        |
+       | ✅     | M3x6 BHCS                    | 12      | 4    | 8         |
+       | ✅     | M5 2020 drop-in T-nut        | 34      | 0    | 34        |
+       | ✅     | M5 washer                    | 4       | 2    | 2         |
+       | ✅     | M5x10 BHCS                   | 18      | 2    | 16        |
+       | ✅     | M5x16 BHCS                   | 8       | 0    | 8         |
+       | ✅     | M5x40 SHCS                   | 8       | 0    | 8         |
 
    4. We have used all printed parts aside from:
 
@@ -188,5 +188,3 @@ I will assume that you are familiar with the build process of a Voron 2.4. If no
        | Y_endstop_housing       | 1   |
        | X_endstop_housing       | 1   |
        | 2MGT 6mm belt (5m)      | 1   |
-
-
