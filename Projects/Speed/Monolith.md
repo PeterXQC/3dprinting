@@ -184,4 +184,34 @@ I will assume that you are familiar with the build process of a Voron 2.4. If no
         | X_endstop_housing         | 1       | 
         | 2MGT 6mm belt (5m)        | 1       | 
 
+8. Mid-assembly check-up
+   1. So far, we have created all the major components. The next steps will involve installing them together around the aluminum extrusions. 
+
+   2. This is a good time to stop, sit back, grab a cup of coffee, and double check each washer, shim, and screw.
+
+   3. In terms of hardware, we have used:
+
+      | Part            | BOM Qty | Used | Remaining |
+      |-----------------|---------|------|-----------|
+      | ~~M3 hex nut~~  | 2       | 2    | 0         |
+      | M3 washer       | 24      | 18   | 6         |
+      | M3x12 SHCS      | 2       | 0    | 2         |
+      | M3x30 BHCS      | 20      | 0    | 20        |
+      | M3x6 BHCS       | 12      | 4    | 8         |
+      | M5 2020 T-nut   | 34      | 0    | 34        |
+      | M5 washer       | 4       | 2    | 2         |
+
+   4. We have used all printed parts aside from:
+
+      | Part                    | Qty |
+      |-------------------------|-----|
+      | Printed_V2_Z_belt_clamp | 8   |
+      | Printed_V2_Z_joint_a    | 2   |
+      | Printed_V2_Z_joint_b    | 2   |
+      | KW10 microswitch        | 2   |
+      | M2x10 screw             | 4   |
+      | Y_endstop_housing       | 1   |
+      | X_endstop_housing       | 1   |
+      | 2MGT 6mm belt (5m)      | 1   |
+
 
