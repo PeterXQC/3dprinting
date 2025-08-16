@@ -103,16 +103,16 @@ I will assume that you are familiar with the build process of a Voron 2.4. If no
     4. Install the motor on one side of the front motor mount with 4x M3x35 SHCS with washer (again, making sure that the pulley aligns with the bearing kabab), and install a pairing shear housing on the other side. The bearing in the shear housing should support the other side of the motor shaft, and the shear housing should sit flush to the front motor mount. ![image](../assets/finish1.jpg)  
 
 5. XY-joint 
-    - 4x D5x30 shaft, 4x F695 bearing, 2x dehubbed pulley, 6x 0.5mm M5 shim, 2x 1mm M5 shim, 4x M4x2.5 set screw
+    - 4x D5x30 shaft, 4x F695 bearing, 2x dehubbed pulley, 6x 0.5mm M5 shim, 2x 1mm M5 shim, 4x M4x2.5 set screw, 8x M3x6 BHCS, 4x M3x30 BHCS
     - 2x Printed_spacer, 1x Printed_6mm_AWD_XY_joint_left_a, 1x Printed_6mm_AWD_XY_joint_right_a, 1x Printed_6mm_AWD_XY_joint_right_b, 1x Printed_6mm_AWD_XY_joint_left_b
 
     1. Each of the four piece of the XY-joint has a crater in the center. Insert a F695 bearing with flange facing inward (the "outside" is the side touching your plate when printed). 
     2. One of the two pieces for each XY-joint has a thicker lip. It is easier (for me) to work on these sides first (right pieces of both assemblies). ![image](../assets/xy-2.jpg)  
-    3. Insert D5x30 shaft into the bearing and the plastic of the thicker side.
-    4. Put a dehubbed pulley into the center shaft (the one with a bearing to one end), lock it with M4x2.5 screws with the screws pointing away from the bearing. The teeth of the pulley should be besides the elevated lip. The dehubbed pulley should be secured onto the shaft with the M4x2.5 set screw using locktite.
-    5. Put a printed spacer on the center shaft, the small lip should be touching the pulley's hub.
-    6. Put another D5x30 pin in the hole on the lip. Make the same kabab as in the front side with 0.5mm M5 shim, F695 bearing, 1mm M5 shim, F695 bearing, 0.5mm M5 shim. ![image](../assets/half-xy.png)  
-    7. Press the two parts together. The center shaft should be a live shaft (shaft has bearing on eather end and spins with the pulley), while the one with only two F695 bearings and spacers should be a dead shaft (shaft remains fixed to plastic, bearing spins). ![image](../assets/xy-1.jpg)  
+    3. Put a D5x30 pin in the hole on the lip. Make the same kabab as in the front side with 0.5mm M5 shim, F695 bearing, 1mm M5 shim, F695 bearing, 0.5mm M5 shim. ![image](../assets/half-xy.png)
+    4. Put the two pieces of each XY-joint together. They are helded together by the D5x30 pin for now.
+    5. Install each XY-joint onto the linear rail with 4 M3x6 BHCS. ![image](../assets/mountRail.jpg)  
+    6. Insert a shaft into the center bearing. Push the shaft half in from the outside. From the side with the lips, add to the shaft a 0.5mm M5 shim, dehubbed pulley (hub facing away from shim), and a printed spacer (lip touching hub of pulley). Adjust the position of the D5x30 pin as needed, and lock the pulley with M4x2.5 screws. Use locktite. ![image](../assets/putPin.jpg)  
+    7. Install 2x M3x30 BHCS to lock the two pieces together ![image](../assets/lockIn.jpg)  
 
 6. Tensioners 
     - 2x D5x20 shaft, 4x F695 bearing, 2x 1mm M5 shim, 2x M3x45 SHCS, 6x M3 washer, 2x M3x16 SHCS, 2x M3x10 SHCS
@@ -168,8 +168,8 @@ I will assume that you are familiar with the build process of a Voron 2.4. If no
        | ✅     | M3 2020 drop-in T-nut        | 8       | 0    | 8         |
        | ✅     | M3 washer                    | 24      | 18   | 6         |
        | ✅     | M3x12 SHCS                   | 2       | 0    | 2         |
-       | ✅     | M3x30 BHCS                   | 20      | 0    | 20        |
-       | ✅     | M3x6 BHCS                    | 12      | 4    | 8         |
+       | ✅     | M3x30 BHCS                   | 20      | 4    | 16        |
+       | ✅     | M3x6 BHCS                    | 12      | 12    | 0         |
        | ✅     | M5 2020 drop-in T-nut        | 34      | 0    | 34        |
        | ✅     | M5 washer                    | 4       | 2    | 2         |
        | ✅     | M5x10 BHCS                   | 18      | 2    | 16        |
