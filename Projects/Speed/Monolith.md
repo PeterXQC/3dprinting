@@ -139,50 +139,54 @@ I will assume that you are familiar with the build process of a Voron 2.4. If no
     9. Put a M3x6 BHCS in the last hole on the shear housing (again, with washer), it has the M3 hex nut you put in earlier on the other side. ![image](../assets/backed.jpg)  
 
 8. Mid-assembly check-up
-    1. So far, we have created all the major components. The next steps will involve installing them gogether around the aluminum extrusions. 
-    2. This is a good time to stop, sit back, grab a cup of coffee, and double check each washer, shim, and screws.
-    3. In terms of hardware, we have used   
-    
-      | Part                            | BOM Qty | Used | Remaining |
-      |---------------------------------|---------|------|-----------|
-      | ~~M3 hex nut~~                  | 2       | 2    | 0         |
-      | ~~M3x10 SHCS~~                  | 2       | 2    | 0         |
-      | ~~M3x16 SHCS~~                  | 2       | 2    | 0         |
-      | ~~M3x25 SHCS~~                  | 2       | 2    | 0         |
-      | ~~M3x35 SHCS~~                  | 14      | 14   | 0         |
-      | ~~M3x45 SHCS~~                  | 2       | 2    | 0         |
-      | ~~M3xD5x4 threaded insert~~     | 8       | 8    | 0         |
-      | ~~M4x2.5 set screw~~            | 8       | 8    | 0         |
-      | ~~D5x20 smooth pin~~            | 2       | 2    | 0         |
-      | ~~D5x30 smooth pin~~            | 8       | 8    | 0         |
-      | ~~F695 flanged bearing~~        | 24      | 24   | 0         |
-      | ~~GT2 20T 6mm pulley~~          | 4       | 4    | 0         |
-      | ~~GT2 20T 6mm pulley de-hubbed~~| 4       | 4    | 0         |
-      | ~~Shim 0.5mm~~                  | 12      | 12   | 0         |
-      | ~~Shim 1mm~~                    | 6       | 6    | 0         |
-      | ~~NEMA17~~                      | 2       | 2    | 0         |
-      | ~~NEMA17 with 45mm long shaft~~ | 2       | 2    | 0         |
-      | M3 2020 drop-in T-nut           | 8       | 0    | 8         |
-      | M3 washer                       | 24      | 18   | 6         |
-      | M3x12 SHCS                      | 2       | 0    | 2         |
-      | M3x30 BHCS                      | 20      | 0    | 20        |
-      | M3x6 BHCS                       | 12      | 4    | 8         |
-      | M5 2020 drop-in T-nut           | 34      | 0    | 34        |
-      | M5 washer                       | 4       | 2    | 2         |
-      | M5x10 BHCS                      | 18      | 2    | 16        |
-      | M5x16 BHCS                      | 8       | 0    | 8         |
-      | M5x40 SHCS                      | 8       | 0    | 8         |
 
-    4. We have used all printed parts aside from:
+   1. So far, we have created all the major components. The next steps will involve installing them together around the aluminum extrusions. 
 
-      | Part                    | Qty |
-      |-------------------------|-----|
-      | Printed_V2_Z_belt_clamp | 8   |
-      | Printed_V2_Z_joint_a    | 2   |
-      | Printed_V2_Z_joint_b    | 2   |
-      | KW10 microswitch        | 2   |
-      | M2x10 screw             | 4   |
-      | Y_endstop_housing       | 1   |
-      | X_endstop_housing       | 1   |
-      | 2MGT 6mm belt (5m)      | 1   |
+   2. This is a good time to stop, sit back, grab a cup of coffee, and double check each washer, shim, and screws.
+
+   3. In terms of hardware, we have used:
+
+       | Part                            | BOM Qty | Used | Remaining |
+       |---------------------------------|---------|------|-----------|
+       | ~~M3 hex nut~~                  | 2       | 2    | 0         |
+       | ~~M3x10 SHCS~~                  | 2       | 2    | 0         |
+       | ~~M3x16 SHCS~~                  | 2       | 2    | 0         |
+       | ~~M3x25 SHCS~~                  | 2       | 2    | 0         |
+       | ~~M3x35 SHCS~~                  | 14      | 14   | 0         |
+       | ~~M3x45 SHCS~~                  | 2       | 2    | 0         |
+       | ~~M3xD5x4 threaded insert~~     | 8       | 8    | 0         |
+       | ~~M4x2.5 set screw~~            | 8       | 8    | 0         |
+       | ~~D5x20 smooth pin~~            | 2       | 2    | 0         |
+       | ~~D5x30 smooth pin~~            | 8       | 8    | 0         |
+       | ~~F695 flanged bearing~~        | 24      | 24   | 0         |
+       | ~~GT2 20T 6mm pulley~~          | 4       | 4    | 0         |
+       | ~~GT2 20T 6mm pulley de-hubbed~~| 4       | 4    | 0         |
+       | ~~Shim 0.5mm~~                  | 12      | 12   | 0         |
+       | ~~Shim 1mm~~                    | 6       | 6    | 0         |
+       | ~~NEMA17~~                      | 2       | 2    | 0         |
+       | ~~NEMA17 with 45mm long shaft~~ | 2       | 2    | 0         |
+       | M3 2020 drop-in T-nut           | 8       | 0    | 8         |
+       | M3 washer                       | 24      | 18   | 6         |
+       | M3x12 SHCS                      | 2       | 0    | 2         |
+       | M3x30 BHCS                      | 20      | 0    | 20        |
+       | M3x6 BHCS                       | 12      | 4    | 8         |
+       | M5 2020 drop-in T-nut           | 34      | 0    | 34        |
+       | M5 washer                       | 4       | 2    | 2         |
+       | M5x10 BHCS                      | 18      | 2    | 16        |
+       | M5x16 BHCS                      | 8       | 0    | 8         |
+       | M5x40 SHCS                      | 8       | 0    | 8         |
+
+   4. We have used all printed parts aside from:
+
+       | Part                    | Qty |
+       |-------------------------|-----|
+       | Printed_V2_Z_belt_clamp | 8   |
+       | Printed_V2_Z_joint_a    | 2   |
+       | Printed_V2_Z_joint_b    | 2   |
+       | KW10 microswitch        | 2   |
+       | M2x10 screw             | 4   |
+       | Y_endstop_housing       | 1   |
+       | X_endstop_housing       | 1   |
+       | 2MGT 6mm belt (5m)      | 1   |
+
 
