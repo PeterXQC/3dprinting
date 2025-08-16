@@ -67,6 +67,8 @@ You might want to print the [Voron pulley jig](https://github.com/VoronDesign/Vo
 ## My Installation Manual
 I will assume that you are familiar with the build process of a Voron 2.4. If not, you can reference the [Voron manual](https://github.com/VoronDesign/Voron-2/raw/Voron2.4/Manual/Assembly_Manual_2.4r2.pdf).
 
+The procedures detailed in the main paragraph involves removing the linear rail slider from the rail, then mounting it back on in a later time. If you rather not do this, in your disassembly, make sure to prevent your slider from sliding off the rail in some way (like loosening the M3x8 SHCS screw mounting the rail), and in step 5, instead of mounting the slider to the XY-joint, mount the XY-joint onto the rail directly.
+
 0. Aside from everything in the BOM, if you come from a standard 2 motor Core-XY build, you need 2 extra motors and 2 stepper drivers. 
 1. I printed all my parts with ABS under standard [voron printed parts settings](https://docs.vorondesign.com/sourcing.html).
 2. Install Heat Set Inserts 
@@ -91,7 +93,7 @@ I will assume that you are familiar with the build process of a Voron 2.4. If no
         5. Put a F695 bearing in there, the flange should always be put towards the inside of the final part. ![image](../assets/bearingIn.jpg) 
 
 4. Front side 
-    - 2x D5x30 shaft, 4x F695 bearing, 2x pulley, 4x 0.5mm M5 shim, 2x 1mm M5 shim, 8x M3x35 SHCS, 4x M3 washer, 1x Nema 17, 1x Nema 17 Long Shaft
+    - 2x D5x30 shaft, 4x F695 bearing, 2x pulley, 4x 0.5mm M5 shim, 2x 1mm M5 shim, 8x M3x35 SHCS, 8x M3 washer, 1x Nema 17, 1x Nema 17 Long Shaft
     - 2x Printed_V2_6mm_front_motor_mount_a, 2x Printed_V2_6mm_front_motor_mount_b
 
     1. Insert two D5x30 shaft in the following fashion. They are tight. I used a vise to push it in. The pin is supposed to fix to the body and does not rotate (dead shaft). ![image](../assets/pin.jpg)
@@ -115,14 +117,16 @@ I will assume that you are familiar with the build process of a Voron 2.4. If no
     7. Install 2x M3x30 BHCS to lock the two pieces together ![image](../assets/lockIn.jpg)  
 
 6. Tensioners 
-    - 2x D5x20 shaft, 4x F695 bearing, 2x 1mm M5 shim, 2x M3x45 SHCS, 6x M3 washer, 2x M3x16 SHCS, 2x M3x10 SHCS
+    - 2x D5x20 shaft, 4x F695 bearing, 2x 1mm M5 shim, 2x M3x45 SHCS, 6x M3 washer, 2x M3x16 SHCS, 2x M3x10 SHCS, 4x M3 T-nut
     - 2x Printed_6mm_tensioner_a, 2x Printed_6mm_tensioner_b
 
-    1. Prepare two tensioners: each tensioner-b has two holes. Put a M3x10 SHCS with a M3 washer into the larger hole. They do not need bind to the plastic part (even though they tend to). ![image](../assets/tensioner-b.jpg)
-    2. Put tensioner-b inside tensioner-a, align the extrusion on the side. Put a M3x16 SHCS with a M3 washer into the aligned hole in tensioner-b and slot in tensioner-a. ![image](../assets/tensioner-a.jpg)
-    3. put M3 T-nut on both of these. The aluminum extrusion should slide onto this part later. ![image](../assets/tensioner-element.jpg)
-    4. Push a D5x20 shaft into tensioner-a ![image](../assets/tensioner-pin.png). One of the sides has a larger hole. The pin should be inserted from there. Do not put the pin all the way in yet. Be careful, the walls around the shaft is thin.
-    5. Put a F695 bearing, 1mm M5 shim, and F695 bearing on the shaft between the two pedals of tensioner-a. I used a tweezer to align the three pieces with the hole. The flange on the F695 bearing should be away from the shim. ![image](../assets/tensioner-done.png)
+    1. Grab the shortest aluminum extrusion in the gantry. It is for the backside. Put 2x M3 T-nuts on each end of a side. 
+    2. Put a M3x10 SHCS with a M3 washer into the larger hole of tensioner-b, screw into the M3 T-nut closer to the center of the beam. ![image](../assets/tensioner-b.jpg)
+    3. Push a D5x20 shaft into tensioner-a ![image](../assets/tensioner-pin.png). One of the sides has a larger hole. The pin should be inserted from there. Do not put the pin all the way in yet. Be careful, the walls around the shaft is thin.
+    4. Put a F695 bearing, 1mm M5 shim, and F695 bearing on the shaft between the two pedals of tensioner-a. I used a tweezer to align the three pieces with the hole. The flange on the F695 bearing should be away from the shim. ![image](../assets/tensioner-done.png)
+    5. Put tensioner-a on tensioner-b, Put a M3x16 SHCS with a M3 washer into the aligned hole in tensioner-b and slot in tensioner-a. Screw into the other M3 T-nut. ![image](../assets/tensioner-a.jpg)
+    6. Put a M3x45 SHCS screw with washer in the hole on the side. Screw in all three screws loosely so that the M3 T-nut slides with the assembly alone the rail. 
+    7. The other side should be FLIPPED, not mirrored. 
 
 7. Back side 
     - 2x D5x30 shaft, 2x pulley, 2x dehubbed pulley, 6x M3x35 SHCS, 4x M3x6 BHCS, 2x M3 hex nut, 2x 0.5mm M5 shim, 2x M3x25 SHCS, 2x M5x10 BHCS, 2x M5 washer, 8x M3 washer, 4x M4x2.5 set screw, 1x Nema 17, 1x Nema 17 Long Shaft
@@ -140,41 +144,41 @@ I will assume that you are familiar with the build process of a Voron 2.4. If no
 
 8. Mid-assembly check-up
 
-   1. So far, we have created all the major components. The next steps will involve installing them together around the aluminum extrusions. 
+   1. So far, we have created all the major components. The next steps will involve putting them and the aluminum extrusions together. 
 
    2. This is a good time to stop, sit back, grab a cup of coffee, and double check each washer, shim, and screws.
 
    3. In terms of hardware, we have used:
 
-       | Status | Part                         | BOM Qty | Used | Remaining |
+       | Used Up | Part                         | BOM Qty | Used | Remaining |
        |--------|------------------------------|---------|------|-----------|
-       | ❌     | M3 hex nut                   | 2       | 2    | 0         |
-       | ❌     | M3x10 SHCS                   | 2       | 2    | 0         |
-       | ❌     | M3x16 SHCS                   | 2       | 2    | 0         |
-       | ❌     | M3x25 SHCS                   | 2       | 2    | 0         |
-       | ❌     | M3x35 SHCS                   | 14      | 14   | 0         |
-       | ❌     | M3x45 SHCS                   | 2       | 2    | 0         |
-       | ❌     | M3xD5x4 threaded insert      | 8       | 8    | 0         |
-       | ❌     | M4x2.5 set screw             | 8       | 8    | 0         |
-       | ❌     | D5x20 smooth pin             | 2       | 2    | 0         |
-       | ❌     | D5x30 smooth pin             | 8       | 8    | 0         |
-       | ❌     | F695 flanged bearing         | 24      | 24   | 0         |
-       | ❌     | GT2 20T 6mm pulley           | 4       | 4    | 0         |
-       | ❌     | GT2 20T 6mm pulley de-hubbed | 4       | 4    | 0         |
-       | ❌     | Shim 0.5mm                   | 12      | 12   | 0         |
-       | ❌     | Shim 1mm                     | 6       | 6    | 0         |
-       | ❌     | NEMA17                       | 2       | 2    | 0         |
-       | ❌     | NEMA17 with 45mm long shaft  | 2       | 2    | 0         |
-       | ✅     | M3 2020 drop-in T-nut        | 8       | 0    | 8         |
-       | ✅     | M3 washer                    | 24      | 18   | 6         |
-       | ✅     | M3x12 SHCS                   | 2       | 0    | 2         |
-       | ✅     | M3x30 BHCS                   | 20      | 4    | 16        |
-       | ✅     | M3x6 BHCS                    | 12      | 12    | 0         |
-       | ✅     | M5 2020 drop-in T-nut        | 34      | 0    | 34        |
-       | ✅     | M5 washer                    | 4       | 2    | 2         |
-       | ✅     | M5x10 BHCS                   | 18      | 2    | 16        |
-       | ✅     | M5x16 BHCS                   | 8       | 0    | 8         |
-       | ✅     | M5x40 SHCS                   | 8       | 0    | 8         |
+       | ✅     | M3 hex nut                   | 2       | 2    | 0         |
+       | ✅     | M3x6 BHCS                    | 12      | 12   | 0         |
+       | ✅     | M3x10 SHCS                   | 2       | 2    | 0         |
+       | ✅     | M3x16 SHCS                   | 2       | 2    | 0         |
+       | ✅     | M3x25 SHCS                   | 2       | 2    | 0         |
+       | ✅     | M3x35 SHCS                   | 14      | 14   | 0         |
+       | ✅     | M3x45 SHCS                   | 2       | 2    | 0         |
+       | ✅     | M3xD5x4 threaded insert      | 8       | 8    | 0         |
+       | ✅     | M4x2.5 set screw             | 8       | 8    | 0         |
+       | ✅     | D5x20 smooth pin             | 2       | 2    | 0         |
+       | ✅     | D5x30 smooth pin             | 8       | 8    | 0         |
+       | ✅     | F695 flanged bearing         | 24      | 24   | 0         |
+       | ✅     | GT2 20T 6mm pulley           | 4       | 4    | 0         |
+       | ✅     | GT2 20T 6mm pulley de-hubbed | 4       | 4    | 0         |
+       | ✅     | Shim 0.5mm                   | 12      | 12   | 0         |
+       | ✅     | Shim 1mm                     | 6       | 6    | 0         |
+       | ✅     | NEMA17                       | 2       | 2    | 0         |
+       | ✅     | NEMA17 with 45mm long shaft  | 2       | 2    | 0         |
+       | ❌     | M3 2020 drop-in T-nut        | 8       | 4    | 4         |
+       | ❌     | M3 washer                    | 24      | 22   | 2         |
+       | ❌     | M3x12 SHCS                   | 2       | 0    | 2         |
+       | ❌     | M3x30 BHCS                   | 20      | 4    | 16        |
+       | ❌     | M5 2020 drop-in T-nut        | 34      | 0    | 34        |
+       | ❌     | M5 washer                    | 4       | 2    | 2         |
+       | ❌     | M5x10 BHCS                   | 18      | 2    | 16        |
+       | ❌     | M5x16 BHCS                   | 8       | 0    | 8         |
+       | ❌     | M5x40 SHCS                   | 8       | 0    | 8         |
 
    4. We have used all printed parts aside from:
 
@@ -183,10 +187,97 @@ I will assume that you are familiar with the build process of a Voron 2.4. If no
        | Printed_V2_Z_belt_clamp | 8   |
        | Printed_V2_Z_joint_a    | 2   |
        | Printed_V2_Z_joint_b    | 2   |
+       | Printed_Hybrid_V2_Z_joint_spacer_NP/V2_spacer_FT | 4 |
        | KW10 microswitch        | 2   |
        | M2x10 screw             | 4   |
        | Y_endstop_housing       | 1   |
        | X_endstop_housing       | 1   |
-       | 2MGT 6mm belt (5m)      | 1   |
 
-9.   
+    5. We have also not used the 2MGT belt.
+
+    6. If you allow protrusion, now is the time to grab your V2_spacer_FT or break it off of Printed_Hybrid_V2_Z_joint_spacer_NP, and install it in each of the four motor mounts. It will snap into a slot like this ![image](../assets/Spacer.jpg)  
+
+    - All looks good? Great! Let's keep going. 
+
+9. Front-Y
+    - 4x M5x40 SHCS, 8x M3x30 BHCS, 4x M5x16 BHCS, 2x M5x10 BHCS, 2x M5 washer, 10x M5 T-nut
+
+    1. Drop 1x M5 T-nut on the side of the Y-extrusion with the linear rail, and 2x M5 T-nut on the two sides adjacent to the side with linear rail. Their location can be adjusted later.
+    2. Push the front motor mounts onto the aluminum extrusion. The extrusion should sit as deep as possible, pushing into either the motor mount or the spacer you just put in. ![image](../assets/fitIn.jpg)  
+    3. Screw a M5x10 BHCS with washer into the M5 T-nut on the rail side. ![image](../assets/Screw1.jpg)  
+    4. Align the two M5 T-nuts on each side with the two holes on the front motor mount. You can push the nuts out of the rail from each ends if necessary.
+    5. For the far side from the motor, put a Z-belt clamp, then lock in place with two M5x16 BHCS.The groove of the Z-belt clamp should face the motor mount, and the slot should face away from the motor.
+    6. For the two holes near the motor, put a Z-belt clamp (again, groove facing motor mount, slot should face away from the motor), and a Z-joint. Screw in two M5x40 SHCS from above the Z-joint. ![image](../assets/Final.jpg)  
+    7. Put a M3x30 BHCS into each of the four holes on the z-joint. They are to secure the gantry onto the Z-rails. They are here for completion for now.
+
+10. Y-sliders
+    1. Now that your linear rails wont slide off the front side of Y-axis. you can mount the XY-joints onto the Y-axis. Be very gentle and careful, as these bearing balls can fly out under little pressure. See picture for orientation ![image](../assets/slider.jpg)  
+
+11. Back-Y
+    - 4x M5x40 SHCS, 8x M3x30 BHCS, 4x M5x16 BHCS, 2x M5 washer, 10x M5 T-nut
+
+    1. Exact same process as for the front, except for this time, the one screw on the rail side is already locked to a T-nut from when we put the back motor mount together. This does not matter, you can unscrew it and install the mount to the extrusions the same way you did for front-Y.
+
+12. Back-X
+    - 8x M5x10 BHCS, 8x M5 T-nut
+
+    1. Put 2x M5 T-nut on each end of each face adjacent to the back extrusion with the tensioner. Again, bulky end of the T-nut should face inside of the extrusion.
+    2. Screw in a M5x10 BHCS into each hole. The tensioner should be on the inside of the finished gantry. ![image](../assets/Gantry.jpg) 
+    3. Make sure that the bearing kabab on the tensioner is on the same height as the MOTOR PULLEY. If not, flip the back beam.   
+
+13. X-axis
+    - 6x M5x10 BHCS, 6x M5 T-nut (I use Mellow's CF-tube, and M5 Flanged nuts)
+
+    1. Install your T-nut/Flanged nut into the rail. If you also use Mellow's CF-tube, you can use this [nut holder](https://www.printables.com/model/1135261-voron-24-350-x-axis-nut-holder/files). Monolith uses the same nut pattern as Voron, so all the fancy beams are cross-compatible. ![image](../assets/final.jpg) 
+
+14. Y-endstop
+    - 2x M3 T-nut, 2x M3x12 SHCS, 1x KW10 microswitch, 1x M2x10 screw
+
+    1. Install the Y-switch onto Y_endstop_housing.
+    2. Set the two M3 T-nuts into the back-X extrusion, and install the Y_endstop_housing, screw in 2 M3x12 SHCS screws. The location of this endstop does not matter, as it is triggered by the X-axis.
+
+15. X-endstop
+
+    1. My old configuration uses a toolheadboard and my x-endstop is toolhead mounted. Install this according to your toolhead. You may also need a different XY-joint piece. 
+
+15. Belt Path
+
+
+We are done! From here, you should follow the Voron manual to mount the gantry onto the Z-rails and belts, [square the gantry](https://ellis3dp.com/Print-Tuning-Guide/articles/voron_v2_gantry_squaring.html) then proceed onto electrical/configuration settings. GLHF!
+
+## Looking back:
+In terms of hardware, we have used:
+
+| Used Up | Part                         | BOM Qty | Used | Remaining |
+|--------|------------------------------|---------|------|-----------|
+| ✅     | M3 hex nut                   | 2       | 2    | 0         |
+| ✅     | M3x6 BHCS                    | 12      | 12   | 0         |
+| ✅     | M3x10 SHCS                   | 2       | 2    | 0         |
+| ✅     | M3x16 SHCS                   | 2       | 2    | 0         |
+| ✅     | M3x25 SHCS                   | 2       | 2    | 0         |
+| ✅     | M3x35 SHCS                   | 14      | 14   | 0         |
+| ✅     | M3x45 SHCS                   | 2       | 2    | 0         |
+| ✅     | M3xD5x4 threaded insert      | 8       | 8    | 0         |
+| ✅     | M4x2.5 set screw             | 8       | 8    | 0         |
+| ✅     | D5x20 smooth pin             | 2       | 2    | 0         |
+| ✅     | D5x30 smooth pin             | 8       | 8    | 0         |
+| ✅     | F695 flanged bearing         | 24      | 24   | 0         |
+| ✅     | GT2 20T 6mm pulley           | 4       | 4    | 0         |
+| ✅     | GT2 20T 6mm pulley de-hubbed | 4       | 4    | 0         |
+| ✅     | Shim 0.5mm                   | 12      | 12   | 0         |
+| ✅     | Shim 1mm                     | 6       | 6    | 0         |
+| ✅     | NEMA17                       | 2       | 2    | 0         |
+| ✅     | NEMA17 with 45mm long shaft  | 2       | 2    | 0         |
+| ❌     | M3 2020 drop-in T-nut        | 8       | 4    | 4         |
+| ❌     | M3 washer                    | 24      | 22   | 2         |
+| ❌     | M3x12 SHCS                   | 2       | 0    | 2         |
+| ✅     | M3x30 BHCS                   | 20      | 20    | 0        |
+| ✅     | M5 2020 drop-in T-nut        | 34      | 34    | 0        |
+| ✅     | M5 washer                    | 4       | 4    | 0         |
+| ✅     | M5x10 BHCS                   | 18      | 18    | 0        |
+| ✅     | M5x16 BHCS                   | 8       | 8    | 0         |
+| ✅     | M5x40 SHCS                   | 8       | 8    | 0         |
+
+There are some descrepencies in BOM V1.0.10. The 4 extra M3 T-nut are for mounting X/Y endstops (2 each), and the 2 extra M3x12 SHCS are for the Y endstops. The X-endstop uses 2x M3x30 SCHS that is not included in the BOM to pair with the other two M3 T-nuts. The BOM also calls for 2 extra M3 washers due to a mistake in CAD. This issue has been [mentioned to the team](https://github.com/Monolith3D/Monolith_Gantry/issues/15).
+
+Furthermore, I need a new way to get Z-offsets and X-endstops.
