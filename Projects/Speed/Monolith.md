@@ -189,4 +189,4 @@ I will assume that you are familiar with the build process of a Voron 2.4. If no
        | X_endstop_housing       | 1   |
        | 2MGT 6mm belt (5m)      | 1   |
 
-9. 
+9.   
