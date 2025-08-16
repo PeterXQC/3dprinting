@@ -142,6 +142,7 @@ I will assume that you are familiar with the build process of a Voron 2.4. If no
     1. So far, we have created all the major components. The next steps will involve installing them gogether around the aluminum extrusions. 
     2. This is a good time to stop, sit back, grab a cup of coffee, and double check each washer, shim, and screws.
     3. In terms of hardware, we have used   
+    
       | Part                            | BOM Qty | Used | Remaining |
       |---------------------------------|---------|------|-----------|
       | ~~M3 hex nut~~                  | 2       | 2    | 0         |
