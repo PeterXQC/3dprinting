@@ -241,6 +241,7 @@ The procedures detailed in the main paragraph involves removing the linear rail 
     1. My old configuration uses a toolheadboard and my x-endstop is toolhead mounted. Install this according to your toolhead. You may also need a different XY-joint piece. 
 
 15. Belt Path
+    ![image](../assets/BeltPath.png) 
 
 
 We are done! From here, you should follow the Voron manual to mount the gantry onto the Z-rails and belts, [square the gantry](https://ellis3dp.com/Print-Tuning-Guide/articles/voron_v2_gantry_squaring.html) then proceed onto electrical/configuration settings. GLHF!
